@@ -4,23 +4,23 @@ import "../App.css"
 export class Result extends Component {
   render() {
     return (
-      <div className='container-3'>
-      <h1>Result</h1>
+      <div id='resultcontainer'>
+        <div className='container-3'>
+      <h1 id='result'>Result</h1>
       <div className="seconddiv">
-          <div className="quote">You need more practice!</div>
-          <div className="score">Your score is 20 %</div>
-          <div className='details'>
-          <div className="lineflex"><span>Total number of questions</span><span>15</span></div>
-          <div className="lineflex"><span>Number Of attempted questions</span><span>9</span></div>
-          <div className="lineflex"><span>Number of correct answers</span><span>3</span></div>
-          <div className="lineflex"><span>Number Of wrong answers</span><span>6</span></div>
-          </div>
+          <h2>You need more practice!</h2>
+          <h1>Your score is 20 %</h1>
+          <div className="lineflex">Total number of questions<p>15</p></div>
+          <div className="lineflex">Number Of attempted questions<p>9</p></div>
+          <div className="lineflex">Number of correct answers<p>3</p></div>
+          <div className="lineflex">Number Of wrong answers<p>6</p></div>
       </div>
       <div className="buttons">
           <button>Play again</button>
           <button>Back to home</button>
       </div>
     </div>
+      </div>
     )
   }
 }

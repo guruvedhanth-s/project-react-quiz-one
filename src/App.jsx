@@ -7,7 +7,7 @@ import Result from "./component/Result"
 function App() {
   return (
     <div>
-        <Home/>
+        {/* <Home/> */}
         {/* <Quiz/> */}
         {/* <Result/> */}
     </div>

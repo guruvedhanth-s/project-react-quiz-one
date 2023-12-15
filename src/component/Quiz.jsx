@@ -7,8 +7,12 @@ export class Quiz extends Component {
       <>
         <div className='boss'>
             <div className='container-2'>
+            <div className='smallcontainer'>
             <h1>Question</h1>
+            <span>1 of 5 </span>
+            </div>
             <p className='question'>Which is the only mammal that can jump</p>
+            
             <div className='options'>
                 <button className='btn-1'>option-1</button>
                 <button className='btn-1'>option-2</button>
